@@ -1,0 +1,36 @@
+.headerMain{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  .leftSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .rightSection{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+  }
+}
+
+input{
+  border: 2px solid teal;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.15);
+  font-size: 18px;
+  width: 100%;
+}
+select{
+  border: 2px solid teal;
+  padding: 7px 5px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgba(0, 128, 0, 0.15);
+  font-size: 18px;
+  width: 100%;
+}
